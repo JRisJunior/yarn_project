@@ -17,6 +17,7 @@ Dream: Ah, you have awoken.
   Dream: Though...
   Dream: I would not say you are awake either.
   -> Player: Wait, what do you mean?
+    Dream: I mean that you are not asleep, but not entirely awake.
   <<jump Curiousity>>
   -> Player: Oh. Well that is a bit odd.
 -> Player: Who wants to know?
@@ -26,11 +27,12 @@ Dream: Ah, you have awoken.
 title: Curiousity
 position: -118,-102
 ---
-Dream: I mean that you are not asleep, but not entirely awake.
 Dream: You are in my domain.
+Dream: The domain of dreams.
 
 -> Player: Your...domain?
-  Dream: Yes. My home, as it were.
+  Dream: Yes.
+  Dream: My home, as it were.
   Dream: The reasons for your presence here
   Dream: are unknown to me
   Dream: Though, not entirely relevant.
@@ -38,14 +40,23 @@ Dream: You are in my domain.
       Dream: Hmm...
       Dream:  No, it is not.
     -> Player: Well, that explains it then.
-    <<jump StepTwo>>
+      <<jump Greetings>>
+-> Player: So I'm...dreaming?
+    Dream: As you would perceive it,
+    Dream: Yes.
 ===
 title: Greetings
 position: 108,149
 ---
+Dream: And you are?
 -> *extend a handshake*
--> Player: Nice to meet you, Dream. I'm...
--> 
+  Player: Wait, where are my hands?
+  Player: And my body!?
+  Dream: There is no need to panic.
+    -> Player: Well I'm panicking, alright!
+    -> Player: If you insist...
+-> Player: I'm...who am I?
+-> Player: Well, I'm me.
 ===
 
 title: ImmediateExit
@@ -53,6 +64,7 @@ position: -145,147
 ---
 ->Player: My bad.
 ->Player: Well, I *am* rude!
+  Dream: That will not bode well for you here.
   Player: What's it to ya'?
   Dream: ...
   Dream: Wish you to leave this place?
@@ -60,3 +72,4 @@ position: -145,147
     ->Player: You bet your ass I do!
       Dream: Very well. Begone.
       <<jump Awaken>>
+===
