@@ -1,0 +1,62 @@
+title: Start
+position: 0,0
+---
+Player: ...
+Player: ...hnng...
+Player: ...uhHWAAA!
+Player: Where...
+Player: where am I?
+Dream: Ah, you have awoken.
+
+-> Player: Who are you?
+  Dream: Hmm.
+  Dream: You may call me Dream.
+  <<jump Greetings>>
+-> Player: Yeah, I guess I dozed off there.
+  Dream: Indeed you did.
+  Dream: Though...
+  Dream: I would not say you are awake either.
+  -> Player: Wait, what do you mean?
+  <<jump Curiousity>>
+  -> Player: Oh. Well that is a bit odd.
+-> Player: Who wants to know?
+  Dream: You may call me Dream. And there is no need to be rude.
+  <<jump ImmediateExit>>
+===
+title: Curiousity
+position: -118,-102
+---
+Dream: I mean that you are not asleep, but not entirely awake.
+Dream: You are in my domain.
+
+-> Player: Your...domain?
+  Dream: Yes. My home, as it were.
+  Dream: The reasons for your presence here
+  Dream: are unknown to me
+  Dream: Though, not entirely relevant.
+    -> Player: Is that....normal?
+      Dream: Hmm...
+      Dream:  No, it is not.
+    -> Player: Well, that explains it then.
+    <<jump StepTwo>>
+===
+title: Greetings
+position: 108,149
+---
+-> *extend a handshake*
+-> Player: Nice to meet you, Dream. I'm...
+-> 
+===
+
+title: ImmediateExit
+position: -145,147
+---
+->Player: My bad.
+->Player: Well, I *am* rude!
+  Player: What's it to ya'?
+  Dream: ...
+  Dream: Wish you to leave this place?
+    ->Player: I just don't know where I am!
+    ->Player: You bet your ass I do!
+      Dream: Very well. Begone.
+      <<jump Awaken>>
