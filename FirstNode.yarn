@@ -12,7 +12,7 @@ You do not recognize them.
 Stranger: Ah, you have awoken.
 
 -> Player: Who are you?
-  <<jump Greetings>>
+  <<jump Explanation>>
 -> Player: Yeah, I must've dozed off there.
   Stranger: Indeed you did.
   Stranger: Though...
@@ -22,60 +22,39 @@ Stranger: Ah, you have awoken.
   Stranger: I would not say you are currently awake either.
   <<jump Explanation>>
 -> Player: Who wants to know?
-  Dream: There is no need to be rude. You may call me Dream.
   <<jump ImmediateExit>>
 ===
-title: Explaination
+title: Explanation
 position: -118,-102
 ---
+Dream: I am Dream.
 Dream: You are in my domain.
 Dream: The domain of dreams.
 
-
--> Player: Your...domain?
-  Dream: Yes.
-  Dream: My home, as it were.
-  Dream: The reasons for your presence here
-  Dream: are unknown to me
-  Dream: Though, not entirely relevant.
-    -> Player: Is that....normal?
-      Dream: Hmm...
-      Dream:  No, it is not.
-    -> Player: Well, that explains it then.
-      <<jump Greetings>>
+Player: Your...domain?
+Dream: Yes.
+Dream: My home, as it were.
+Dream: It is I,
+Dream: And I am it.
+Dream: The reasons for your presence here
+Dream: are unknown to me
+Dream: Though, not entirely relevant.
 -> Player: So I'm...dreaming?
     Dream: As you would perceive it,
     Dream: Yes.
-===
-title: Greetings
-position: 108,149
----
-Dream: You may call me Dream.
-// Dream: And you are?
-// -> *extend a handshake*
-//   Player: Wait, where are my hands?
-//   Player: And my body!?
-//   Dream: There is no need to panic.
-//     -> Player: Well I'm panicking, alright!
-//     -> Player: If you insist...
-// -> Player: I'm...who am I?
-// -> Player: Well, I'm me.
+-> Player: Is there anything I can do here?
+-> Player: Should I be worried?
 ===
 
 title: ImmediateExit
 position: -145,147
 ---
+Dream: You sound like you wish to leave.
 -> Player: I'm sorry, perhaps we should start over.
--> Player: Well, I *am* rude!
-  Dream: That will not bode well for you here.
-  Player: What's it to ya'?
-  Dream: ...
-  Dream: Wish you to leave this place?
-    -> Player: No, no, I just have a lot of questions.
-        Dream: Very well, then perhaps we should start over.
-        <<jump Greetings>>
-    -> Player: You bet your ass I do!
-        Dream: Very well. Begone.
-      <<jump Awaken>>
+    Dream: Hmm. Very well.
+    <<jump Explanation>>
+-> Player: You bet your ass I do!
+    Dream: Very well. Begone.
+    <<jump Awaken>>
 
 ===
