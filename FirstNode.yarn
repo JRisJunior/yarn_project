@@ -1,5 +1,5 @@
-title: Start
-position: 0,0
+title: Beginning
+position: 155,10
 ---
 Player: ...
 Player: ...hnng...
@@ -21,11 +21,11 @@ Stranger: Ah, you have awoken.
   down to your very soul.
   Stranger: I would not say you are currently awake either.
   <<jump Explanation>>
--> Player: Who wants to know?
+-> Player: Who cares! Get me out of here!
   <<jump ImmediateExit>>
 ===
 title: Explanation
-position: -118,-102
+position: -29,-210
 ---
 Dream: I am Dream.
 Dream: You are in my domain.
@@ -39,22 +39,31 @@ Dream: And I am it.
 Dream: The reasons for your presence here
 Dream: are unknown to me
 Dream: Though, not entirely relevant.
+
 -> Player: So I'm...dreaming?
     Dream: As you would perceive it,
     Dream: Yes.
+    Player: Well, is there anything I can do then?
+    <<jump DreamSequenceOne>>
 -> Player: Is there anything I can do here?
+    <<jump DreamSequenceOne>>
 -> Player: Should I be worried?
+    Dream: I mean you no harm.
+    Dream: In fact, there are things you may see
+    Dream: That may interest you.
+    <<jump DreamSequenceOne>>
 ===
 
 title: ImmediateExit
-position: -145,147
+position: -23,246
 ---
 Dream: You sound like you wish to leave.
+
 -> Player: I'm sorry, perhaps we should start over.
     Dream: Hmm. Very well.
     <<jump Explanation>>
 -> Player: You bet your ass I do!
     Dream: Very well. Begone.
-    <<jump Awaken>>
+    <<jump FastAwaken>>
 
 ===
