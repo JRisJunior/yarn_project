@@ -1,4 +1,76 @@
 title: DreamSequenceOne
 position:
 ---
+Dream: I can show you many things
+Dream: <color=blue>From your past</color>
+Dream: <color=gold>From your present</color>
+Dream: <color=purple>Or even your future.</color>
+Dream: However
+Dream: Not everything will ring true as you remember.
+Dream: Perhaps the details have changed
+Dream: Or the setting
+Dream: Or who you were with
+Dream: Thus is the nature of dreams.
+Dream: Our time together is limited
+Dream: So choose wisely.
+Dream: Which do you wish to experience?
+-> Player: <color=blue>The past.</color>
+  Dream: Very well.
+  <<jump PastDream>>
+-> Player: <color=gold>The present.</color>
+  Dream: Very well.
+  <<jump PresentDream>>
+-> Player: <color=purple>The future.</color>
+  Dream: Very well.
+  <<jump FutureDream>>
 
+===
+
+title: PastDream
+
+---
+You feel a rush of wind and light
+as you are whisked away to your past.
+Memories and images begin to flood your mind.
+Memories of home...
+Memories of a place long held to your heart...
+Memories of a person you looked up to...
+Which memory does your mind lean towards?
+-> Player: Home.
+  <<jump PastHome>>
+-> Player: My favorite place.
+  <<jump PastPlace>>
+-> Player: A role model.
+  <<jump PastModel>>
+===
+
+title: PastHome
+
+---
+You find yourself drawn toward memories of home.
+There is another flash of light and wind
+And as though your eyes have been closed
+The awareness of your surroundings begin to take shape.
+How old do you feel?
+-> Player: Very young.
+    You feel small.
+    The ceiling looks much farther away than usual
+    As does everything else.
+-> Player: Coming of age.
+-> Player: Similar to now.
+
+
+
+
+
+title: PresentDream
+
+---
+
+===
+
+title: FutureDream
+
+---
+
+===
