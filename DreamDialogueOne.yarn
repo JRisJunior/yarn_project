@@ -174,7 +174,7 @@ How old do you feel?
           and settle back into place.
           What do you do?
           -> Player: I begin to get up.
-              No rest for the wicked.
+              No rest for the wicked, as they say.
               You gently lift your cat from your lap
               stand from your chair
               then turn to place the cat back onto the warm spot you left.
@@ -235,6 +235,40 @@ How old do you feel?
                   The dream fades.
                   // Jump to end of this dream sequence once written
           -> Player: I stay seated.
+              You allow your cat solace a little while longer.
+              Your cat purrs once more
+              as if in appreciation of the gesture.
+              In your heart, you know it does
+              though in your mind, you know it's only a matter of time.
+              Terminal,
+              they said.
+              It's only a matter of time,
+              they said.
+              You gently graze your hand along your cat's fur with the grain
+              and think back on how much fur they had when they were a kitten.
+              How the years you spent with them
+              were some of the most blissful
+              and yet, chaotic,
+              years of your life.
+              But not once did they ever leave your side.
+              Through all of it, thick or thin
+              they were your loyal companion.
+              Your shadow.
+              And now,
+              you've been told the time you will be parted from each other
+              will be sooner than you'd like.
+              You look back towards the window
+              taking in the sun
+              the clouds
+              and the perfect color of <color=blue>blue</color> the sky is at this moment.
+              You continue habitually petting your cat,
+              your friend,
+              your comrade,
+              as you close your eyes
+              and appreciate this moment with them
+              as much as possible.
+              The dream fades.
+              // Jump to end of this dream sequence once written
       -> Player: A brick wall.
       -> Player: Nothing, the curtains are closed.
   -> Player: At work.
