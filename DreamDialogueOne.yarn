@@ -279,13 +279,72 @@ How old do you feel?
 title: PastPlace
 
 ---
-
+You look around you and find yourself
+In a very familiar place.
+Where are you?
+-> Player: Indoors.
+  You are contained within a structure
+  With a roof over your head
+  And a floor under your feet.
+  Are you with anyone?
+  -> Player: I am with others.
+    You begin to notice other people around you.
+    Do they see you?
+    -> Player: Yes.
+      You look to your left and right
+      And as you do
+      You notice people standing next to you.
+      They look determined
+      And glance at you
+      Only out of the corner of their eyes.
+      You look back ahead
+      And see a high net
+      With others on the other side.
+      You notice the echo in the room
+      Is somewhat deafening.
+      Beyond the people next to you
+      Are people sitting in bleachers
+      Cheering for you
+      And those next to you.
+      The crowd suddenly goes silent.
+      You snap your head forward.
+      And notice someone
+      On the other side of the net
+      Holding a ball.
+      They spin it expectantly in their hands.
+      The ball stops.
+      They loft the ball into the air
+      Jump up towards it
+      Reach back
+      And swing their arm to hit the ball.
+      You hear a profound
+      <color=purple>Whack.</color>
+      You smile
+      Knowing this will be the last time
+      You play with these teammates
+      On this floor
+      In this building
+      For the rest of your life.
+      The feeling is bittersweet
+      But there is no time for nostalgia.
+      The final match has started.
+      The dream fades.
+      // Jump to end of this dream sequence once written
+    -> Player: No.
+    // game of tag or hide and go seek?
+  -> Player: I am alone.
+  -> Player: I am with one other person.
+-> Player: Outdoors.
+-> Player: A place within.
 
 
 ===
 title: PresentDream
 
 ---
+
+
+
 
 ===
 
